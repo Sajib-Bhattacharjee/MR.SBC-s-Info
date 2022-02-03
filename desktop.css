@@ -1,0 +1,193 @@
+
+
+ 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}  
+
+
+.logo{
+    display: flex;
+    justify-content: flex-start; 
+    
+}
+.heading h1{
+    margin-top: 10px;
+    
+} 
+
+
+
+.nav{
+    flex-direction: row;  
+    justify-content: flex-end;
+    margin-top: 20px;
+} 
+
+.nav a{
+    margin: 0px 25px;
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid wheat; 
+
+
+} 
+
+.nav a:hover{
+    background-color: black;
+    color: white; 
+
+    border: 4px solid white;
+    transform: scale(1.1); 
+    box-shadow: 4px 4px 4px 4px antiquewhite;
+
+} 
+
+
+/* Header Section ends Here */ 
+
+
+
+/* Banner Section Starts Here   */  
+
+
+.banner-section{
+    position: relative;
+    height: 100vh;
+} 
+.banner-contents{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}  
+
+.banner-contents h2{
+    font-size: 5rem;
+    width: 1400px; 
+    margin-bottom: 40px;
+} 
+
+.banner-contents h3{
+    font-size: 40px;
+    width: 800px;
+    margin-bottom: 25px;
+} 
+
+.banner-contents h4{
+    font-size: 25px;
+    width: 750px;
+    margin-bottom: 25px;
+} 
+
+.banner-contents p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+} 
+
+.tnq-btn{
+    width: 400px;
+    height: 100px;
+    
+} 
+
+
+
+/*  Banner Section Ends Here */  
+
+
+/* About me section starts here*/ 
+.aboutme-img{
+    margin-top: 100px;
+     
+}
+.aboutme-img img{
+    height: 350px;
+    width: 330px; 
+
+    transition: 0.6s;
+} 
+
+.aboutme-img img:hover{ 
+
+    transform: scale(1.1);
+
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+
+/*Aboutt me section ends here*/    
+
+
+/* Education and others section starts here */
+
+
+/* Education and others section ends here */
+
+
+/* Contact and others section starts here */   
+ .contact-me{
+     margin-top: 80px;
+ } 
+
+ .anisul-islam{
+     margin:20px 40px;
+ }
+
+/* Contact and others section ends here */ 
+
+
+
+
+/* Footer Section Starts Here */  
+
+/*
+.footer h6{
+    font-size: 35px;
+    padding: 20px; 
+     
+    width: 200px; 
+
+    transition: 1s; 
+    
+    
+    
+}  
+
+
+.footer h6:hover{
+    transform: scale(1.05);
+    box-shadow: 4px 4px 4px 4px white;
+    background-color: green;
+    
+} 
+
+*/
+.link{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px; 
+
+    margin-bottom: 60px;;
+} 
+.owner{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 25px
+   
+}
+
+ 
+/* Footer Section Ends Here */

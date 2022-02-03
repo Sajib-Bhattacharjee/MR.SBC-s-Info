@@ -1,0 +1,882 @@
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+
+    font-family: 'Montserrat', sans-serif;
+}  
+
+/*
+Foont Family 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Supermercado One', cursive;
+
+*/  
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}  
+
+
+
+.header{
+    background-color: indigo;
+    text-align: center;
+
+    padding: 1% 7%;
+}   
+.logo{
+ 
+}  
+
+.logo img{
+    height: 76px;
+    max-width: 75px; 
+
+    border: 4px solid yellowgreen;
+    border-radius: 1000px;  
+
+    transition: 0.6s;
+    
+} 
+
+.logo img:hover{
+    transform: scale(1.4); 
+    box-shadow: 4px 4px 4px 4px yellow;
+}
+
+.heading{
+
+} 
+.heading h1{
+    color: white;
+    background-color: #29680c; 
+    width: 490px; 
+    margin: 0 auto; 
+    border-radius: 20px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;  
+    
+   
+    transition: 0.6s;
+} 
+
+.heading h1:hover{ 
+    
+    color: darkorange; 
+    transform: scale(1.1);
+    background-color: black;
+    box-shadow: 4px 4px 4px 4px white;
+
+}
+.nav{  
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+.nav a{ 
+    color: white;
+    text-decoration: none; 
+    background-color: black;
+    margin: 5px 0px;
+    padding: 20px;
+    border-radius: 20px; 
+    font-size: 20px; 
+    font-weight: bolder;
+
+
+    transition: 0.6s;
+   
+
+} 
+
+.nav a:hover{
+    background-color: hotpink;
+    color: antiquewhite;
+    font-weight: bolder; 
+    
+    
+    box-shadow: 4px 4px 4px 4px yellow;
+}
+ 
+
+/*Layout disigning & Universal Work .. */ 
+
+[class*="col-"] {
+    float:left;
+    padding: 10px;
+  }
+
+[class*="col-"] {
+    width: 100%;
+  }
+
+/* Layout Disigning & Universal Work Ends Here */   
+
+
+.header::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+ 
+/* Header section ends Here */  
+
+
+/* Banner Section starts Here */ 
+
+
+.banner-section{
+    background-image: url(/image/cover.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+
+}  
+
+.banner-contents{
+    padding: 100px 60px;
+    text-align: center;  
+ 
+} 
+.banner-contents h2{
+    background-color: orange;
+    color: white; 
+   font-size: 30px;
+   padding: 20px 0px;
+   border-radius: 20px;
+   width: 560px;
+   margin: 0 auto; 
+  
+ 
+   box-shadow: 4px 4px 4px 4px orangered;
+     
+} 
+
+.banner-contents h3{
+    background-color: teal;
+    padding: 20px 10px;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    margin: 0 auto; 
+    margin-top: 12px; 
+
+
+    box-shadow: 4px 4px 4px 4px white;
+} 
+
+.banner-contents h4{
+    background-color: wheat;
+    width: 550px;
+    margin: 0 auto;
+    padding: 25px 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: blueviolet; 
+    margin-top: 10px; 
+
+    box-shadow: 4px 4px 4px 4px blueviolet;
+} 
+
+.banner-contents p{
+    background-color: indigo;
+    padding: 20px 40px;
+    color: white;
+    font-size: 20px;
+    width: 400px; 
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center; 
+
+    border-radius: 20px;
+    margin-bottom: 40px; 
+
+
+    box-shadow: 4px 4px 4px 4px aquamarine;
+
+} 
+
+.tnq-btn{
+   
+    background-color: limegreen;
+    color: white;
+    padding: 20px 10px;
+    width: 340x;
+    margin: 0 auto;
+    font-size: 40px;
+
+    text-shadow: 5px 5px blueviolet;
+    font-weight: bolder;
+    border: 2px solid red;
+    border-radius: 20px;
+
+    transition: 0.8s;
+} 
+ .tnq-btn:hover{ 
+
+    box-shadow: 4px 4px 4px 4px white;
+    transform: scale(1.06);
+    background-color: hotpink;
+
+}
+
+
+.banner-section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/*Banner Section Ends Here */    
+
+/* About me section starts here*/ 
+
+.about-me{
+    background-color: magenta;;
+    padding: 1% 7%; 
+    text-align: center;
+    
+}  
+
+.dotted-hr{
+    border: dotted 10px blue;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 200px;
+}
+.about-me h4{
+    color: white;
+    font-size: 35px;
+    background-color:olivedrab;
+    width: 400px; 
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+
+    box-shadow: 4px 4px 4px 4px khaki;
+    
+} 
+
+.about-me h4:hover{
+  
+}
+
+.aboutme-img img{
+    height: 300px;
+    width: 280px;
+    border-radius: 1000px;
+
+    transition: 0.6s;
+} 
+.aboutme-img img:hover{
+    transform: scale(1.04);
+    box-shadow: 4px 4px 4px 4px blueviolet;
+}
+
+.about-me p{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+} 
+
+.about-me a{
+    color: white;
+}
+
+.cv-button{
+    background-color: black;
+    color: white;
+   
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-weight: bolder; 
+
+    transition: 0.6s;
+} 
+
+.cv-button:hover{ 
+    transform: scale(1.07);
+    box-shadow: 4px 4px 4px 4px black;
+    background-color: indigo;
+    
+
+}
+.about-me::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ 
+/*Aboutt me section ends here*/
+
+/* Education and others section starts here */
+.professional-experience{
+    background-color: grey;
+} 
+
+.work-experience{  
+
+     
+    
+
+}
+.card{ 
+    background-color: antiquewhite;
+    border: 5px solid blue;
+    margin: 20px;
+    
+    transition: 0.6s;
+
+  /*  max-height: 950px; */
+    
+    
+
+} 
+.card:hover{
+    box-shadow: 4px 4px 4px 4px green;
+    transform: scale(1.04);
+}
+.card-icon{  
+    text-align: center;
+}
+.card-icon img{ 
+    height: 120px;
+    width: 120px;
+    border-radius: 1000px;
+    margin-top: 20px;
+    border: 8px solid palevioletred;
+
+}
+.card-title{
+
+} 
+.card-title h5{ 
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    background-color: cyan; 
+    padding: 10px;
+    font-weight: bolder;
+
+}
+.card-desc{ 
+    background-color: darkorchid;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+
+}  
+
+
+.list-container{
+
+} 
+.list-container ul{
+
+} 
+.list-container ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 4px;
+    
+    margin: 9px 60px;
+
+    position: relative;
+
+} 
+
+.list-container ul li::before{ 
+    position: absolute;
+    content: '';
+    position: absolute; 
+    top: calc(100% + 3px);
+    left: 0px;
+    right: 0px;
+
+    background-color: white;
+    height: 10px;
+    width: 100%;
+    border-radius: 20px;
+
+}    
+
+.list-container ul li::after{ 
+    position: absolute;
+    content: '';
+    position: absolute; 
+    top: calc(100% + 3px);
+    left: 0px;
+    right: 0px;
+
+  
+    height: 10px;
+    width: 0%; 
+    border-radius: 20px; 
+
+     
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+
+
+}     
+
+
+.list-container li.html::after{
+    animation-name: html;
+} 
+
+@keyframes html{
+    to{
+        width: 95%; 
+        background-color: coral;
+    }
+}  
+
+.list-container li.css::after{
+    animation-name: css;
+}
+
+@keyframes css{
+    to{
+        width: 95%;
+        background-color: green;
+    }
+}  
+
+.list-container li.bootstrape::after{
+    animation-name: bootstrape;
+}
+
+@keyframes bootstrape{
+    to{
+        width: 85%;
+        background-color: indigo;
+    }
+} 
+
+
+.list-container li.javascript::after{
+    animation-name: javascript;
+}
+
+@keyframes javascript{
+    to{
+        width: 80%;
+        background-color: teal;
+    }
+}
+
+.list-container li.jquery::after{
+    animation-name: jquery;
+}
+
+@keyframes jquery{
+    to{
+        width: 95%;
+        background-color: crimson;
+    }
+}   
+
+.list-container li.sass::after{
+    animation-name: sass;
+}
+
+@keyframes sass{
+    to{
+        width: 95%;
+        background-color: blueviolet;
+    }
+} 
+
+.list-container li.json::after{
+    animation-name: json;
+}
+
+@keyframes json{
+    to{
+        width: 95%;
+        background-color: aqua;
+    }
+} 
+
+.list-container li.node::after{
+    animation-name: node;
+}
+
+@keyframes node{
+    to{
+        width: 80%;
+        background-color: yellow;
+    }
+} 
+
+.list-container li.express::after{
+    animation-name: express;
+}
+
+@keyframes express{
+    to{
+        width: 80%;
+        background-color: indianred;
+    }
+} 
+
+.list-container li.mongodb::after{
+    animation-name: mongodb;
+}
+
+@keyframes mongodb{
+    to{
+        width: 90%;
+        background-color: burlywood;
+    }
+}  
+
+.list-container li.ejs::after{
+    animation-name: ejs;
+}
+
+@keyframes ejs{
+    to{
+        width: 95%;
+        background-color: mediumorchid;
+    }
+}  
+
+.list-container li.react::after{
+    animation-name: react;
+}
+
+@keyframes react{
+    to{
+        width: 75%;
+        background-color: navy;
+    }
+}  
+
+.list-container li.github::after{
+    animation-name: github;
+}
+
+@keyframes github{
+    to{
+        width: 25%;
+        background-color: black;
+    }
+}
+
+ 
+
+.professional-experience::after{
+    content: '';
+    display: table;
+    clear: both;
+}    
+/* Education and others section ends here */  
+
+
+/* Contact and others section starts here */   
+.contact-section{ 
+    background-color: darkcyan;
+    padding: 20px;
+     
+
+} 
+.hobbies{ 
+    border: 2px solid white;
+    background-color: palevioletred;
+    color: white;  
+     
+
+    
+
+}
+.hobbies h5{
+   text-align: center;
+   font-size: 24px;
+   background-color: tomato; 
+   color: white;
+   padding: 10px;
+   width: 300px;
+   margin: 0 auto;
+} 
+
+.hobby-card{ 
+    
+     margin: 40px;
+     transition: 1s;
+     padding: 15px;
+     font-size: 20px;
+     font-style: italic;
+
+} 
+
+.hobby-card:hover{
+    
+    box-shadow: 4px 4px 4px 4px gold;
+    transform: scale(1.04);
+    background-color: purple;
+}
+.hobby-title{
+
+} 
+
+.hobby-title h6{ 
+    background-color: cadetblue;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.hobby-desc{
+
+} 
+.hobby-desc li{
+
+}   
+
+.contact-me{
+    text-align: center;
+   
+    background-color: lightslategray;
+    border-radius: 20px;
+    font-weight: bolder; 
+    margin-top: 20px;
+    
+     
+} 
+.contact-me h5{
+    background-color: purple;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+
+}
+.contact-card{ 
+    margin: 40;
+    padding: 20px;
+
+}
+.contact-card input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align-last: center;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+     
+     
+}
+.contact-card button{
+    border:none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px;
+    width: 140px;
+    font-size: 25px; 
+
+
+    transition: 0.6s;
+
+} 
+
+.contact-card button:hover{
+    background-color: green;
+    color: white;
+    box-shadow: 4px 4px 4px 4px black;
+    transform: scale(1.06);
+}
+
+.passion{ 
+    background-color: rebeccapurple;
+
+     
+}
+.passion h5{
+    background-color: gold;
+    color: green;
+    padding: 10px;
+    text-align-last: center;
+    font-size: 25px;
+
+}
+.anisul-islam{ 
+    border: 2px solid coral;
+    margin: 40px 100px;
+    padding: 20px;
+    background-color: lightslategrey; 
+    border-radius: 20px;
+
+    transition: 1.4s;
+  
+
+}  
+
+.anisul-islam:hover{
+
+      transform: scale(1.04);
+      background-color: darkviolet;
+      
+      box-shadow: 7px 7px 7px 7px lightslategrey;
+}
+.sir-img{ 
+    text-align:center;
+
+}
+.sir-img img{ 
+
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border: 4px solid white;
+    border-radius: 1000px; 
+
+    transition: 1s;
+
+} 
+.sir-img img:hover{ 
+    
+    transform:scale(1.04);
+
+}
+.sir-desc{ 
+    text-align-last: center;
+
+}
+.sir-desc p{ 
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+
+} 
+.sir-desc pre{
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 4px 4px 4px 4px white;
+}  
+
+.sir-desc button{
+    background-color:green;
+    color: white;
+    font-size: 24px; 
+    padding:15px;
+    border: none;
+    border-radius: 20px;
+
+    transition: 1s;
+} 
+
+.sir-desc button:hover{
+    background-color: hotpink;
+    box-shadow: 4px 4px 4px 4px green;
+    transform:scale(1.03);
+
+}
+
+ .contact-section::after{
+      
+     content: '';
+     display: table;
+     clear: both;
+ } 
+/* Contact and others section ends here */ 
+
+/* Footer Section Starts Here */
+ 
+.footer{
+      background-color: black;
+      color: white;
+      padding: 20px 5px;
+      text-align: center; 
+       
+  } 
+/*
+  .footer h6{
+      font-size: 35px;
+      border: 4px dotted red; 
+      width: 150px;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 40px;
+
+  } 
+  */
+  .link{
+      margin-top: 20px;
+  }
+  .link a{
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+      border: 2px solid white;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px; 
+       
+
+     transition: 0.6s;
+
+  } 
+
+  .link a:hover{ 
+      
+      transform: scale(1.06);
+      background-color: goldenrod;
+      box-shadow: 3px 3px 3px white;
+      color: black;
+      
+      
+  } 
+
+  .owner{
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+  } 
+  .woner-love{
+    color: red;
+    text-shadow: 3px 3px red;
+    font-size: 40px;
+    font-weight: bolder;
+
+}  
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Footer Section Ends Here*/ 
